@@ -16,7 +16,7 @@ int main(void)
         for(i=1;i<=height;i++)       //this for loop is for the coloumns,
                {
                 n=0;
-                                     //  printf("i=%d",i); for debug
+                                     //printf("i=%d",i); for debug
                 while(n<height*2+2)  //  this loop is for rows
                    { 
                                   /* the below while loop prints # and spaces.i changes with the relative position of the rows.
@@ -39,10 +39,10 @@ int main(void)
                          else
                              printf("#");
                     else 
-                          printf(" ");
+                          printf(" ");                 //print the spaces
                     n++;
                         
                     }
-               }   
+              }   
                
 }
